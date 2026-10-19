@@ -1,0 +1,29 @@
+{
+  "name": "retenfix-academia",
+  "version": "1.0.0",
+  "description": "Treinamento técnico de vendas e estoque Retenfix",
+  "author": "Projeto independente para portfólio",
+  "license": "UNLICENSED",
+  "main": "src/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test tests/*.test.cjs",
+    "catalogs:fetch": "node scripts/fetch-catalogs.cjs",
+    "dist:win": "electron-builder --win nsis portable --x64 --publish never"
+  },
+  "dependencies": { "three": "0.180.0" },
+  "devDependencies": { "electron": "44.1.1", "electron-builder": "26.15.3" },
+  "build": {
+    "appId": "br.com.retenfix.academia",
+    "productName": "Retenfix Academia",
+    "asar": true,
+    "compression": "maximum",
+    "electronDist": "./node_modules/electron/dist",
+    "directories": { "output": "release" },
+    "files": ["src/**/*", "package.json", "node_modules/three/build/three.module.js", "node_modules/three/build/three.core.js", "node_modules/three/examples/jsm/controls/OrbitControls.js"],
+    "extraResources": [{"from":"resources/catalogos","to":"catalogos"}],
+    "win": { "icon": "src/assets/retenfix.ico", "target": ["nsis", "portable"], "signAndEditExecutable": true },
+    "nsis": { "artifactName": "Retenfix-Academia-Instalador-${version}.${ext}", "oneClick": false, "perMachine": false, "allowToChangeInstallationDirectory": true, "createDesktopShortcut": true, "createStartMenuShortcut": true, "shortcutName": "Retenfix Academia", "runAfterFinish": false, "deleteAppDataOnUninstall": false, "installerLanguages": ["pt_BR"] },
+    "portable": { "artifactName": "Retenfix-Academia-Portatil-${version}.${ext}" }
+  }
+}

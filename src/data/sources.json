@@ -1,0 +1,110 @@
+[
+  {
+    "id": "retenfix",
+    "title": "Retenfix · Vedações usinadas",
+    "file": "CATALOGO-ATUALIZADO.pdf",
+    "brand": "Retenfix",
+    "edition": "2023",
+    "summary": "Materiais, perfis de pistão e haste, raspadores e guias.",
+    "pages": 15,
+    "url": "https://retenfix.com.br/wp-content/uploads/2023/02/CATALOGO-ATUALIZADO.pdf",
+    "image": "assets/catalog-retenfix.png",
+    "searchable": true
+  },
+  {
+    "id": "standard",
+    "title": "O-rings standard",
+    "file": "catalogo-o-rings-standard-digital-2025.pdf",
+    "brand": "AGEL",
+    "edition": "2025",
+    "summary": "Séries standard, diâmetro interno, seção e tolerâncias.",
+    "pages": 3,
+    "url": "https://agel.com.br/wp-content/uploads/2025/04/catalogo-o-rings-standard-digital-2025.pdf",
+    "image": "assets/catalog-standard.png",
+    "searchable": true
+  },
+  {
+    "id": "metric",
+    "title": "O-rings milimétricos",
+    "file": "catalogo-o-rings-milimetrico-digital-2025.pdf",
+    "brand": "AGEL",
+    "edition": "2025",
+    "summary": "Medidas métricas para identificação dimensional.",
+    "pages": 3,
+    "url": "https://agel.com.br/wp-content/uploads/2025/04/catalogo-o-rings-milimetrico-digital-2025.pdf",
+    "image": "assets/catalog-metric.png",
+    "searchable": true
+  },
+  {
+    "id": "gaxetas",
+    "title": "Gaxetas e raspadores",
+    "file": "catalogo-gaxetas-2022.pdf",
+    "brand": "AGEL",
+    "edition": "2022",
+    "summary": "Perfis, materiais, montagem e diagnóstico de falhas.",
+    "pages": 68,
+    "url": "https://agel.com.br/wp-content/uploads/2023/02/catalogo-gaxetas-2022.pdf",
+    "image": "assets/catalog-gaxetas.png",
+    "searchable": true
+  },
+  {
+    "id": "retentores",
+    "title": "Retentores",
+    "file": "catalogo-retentores-digital2.pdf",
+    "brand": "AGEL / APC",
+    "edition": "2021",
+    "summary": "Vedações rotativas, perfis, dimensões e cuidados.",
+    "pages": 112,
+    "url": "https://agel.com.br/wp-content/uploads/2021/06/catalogo-retentores-digital2.pdf",
+    "image": "assets/catalog-retentores.png",
+    "searchable": true
+  },
+  {
+    "id": "auto",
+    "title": "Direção hidráulica · APC",
+    "file": "catalogo-automotivo-digital-agel-2025.pdf",
+    "brand": "AGEL / APC",
+    "edition": "2025",
+    "summary": "Kits e reparos de caixa e bomba; linhas leve e pesada.",
+    "pages": 76,
+    "url": "https://agel.com.br/wp-content/uploads/2025/04/catalogo-automotivo-digital-agel-2025.pdf",
+    "image": "assets/catalog-auto.png",
+    "searchable": true
+  },
+  {
+    "id": "kits",
+    "title": "Kits de o-rings",
+    "file": "AGEL-Kits-Orings.pdf",
+    "brand": "AGEL",
+    "edition": "2022",
+    "summary": "Composição e organização dos kits de manutenção.",
+    "pages": 7,
+    "url": "https://agel.com.br/wp-content/uploads/2022/01/AGEL-Kits-Orings.pdf",
+    "image": "assets/catalog-kits.png",
+    "searchable": true
+  },
+  {
+    "id": "folder",
+    "title": "Folder institucional",
+    "file": "folder-digital.pdf",
+    "brand": "AGEL",
+    "edition": "2022",
+    "summary": "Visão das linhas de produtos, marcas e aplicações.",
+    "pages": 8,
+    "url": "https://agel.com.br/wp-content/uploads/2022/03/folder-digital.pdf",
+    "image": "assets/catalog-folder.png",
+    "searchable": true
+  },
+  {
+    "id": "estanqueidade",
+    "title": "Cálculo de estanqueidade",
+    "file": "estanqueidade.xls",
+    "brand": "AGEL",
+    "edition": "Arquivo original",
+    "summary": "Planilha com abas de haste, êmbolo e tampa. Requer Excel ou compatível.",
+    "pages": 0,
+    "url": "https://agel.com.br/wp-content/uploads/2015/02/estanqueidade.xls",
+    "image": null,
+    "searchable": false
+  }
+]

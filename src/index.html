@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-eTTkfi6AVBoARNu1E09MLFPmoKFx3iPbw650A50suf8='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Retenfix Academia</title>
+  <link rel="icon" href="assets/retenfix.png"><link rel="stylesheet" href="styles.css">
+  <script type="importmap">{"imports":{"three":"../node_modules/three/build/three.module.js"}}</script>
+</head>
+<body>
+  <div id="intro" class="intro" aria-label="Abertura Retenfix"><div class="intro-art"><span class="intro-orbit orbit-one"></span><span class="intro-orbit orbit-two"></span><span class="intro-orbit orbit-three"></span><img src="assets/retenfix.png" alt="Símbolo Retenfix"></div><strong>RETENFIX<span>ACADEMIA</span></strong><p>Conhecimento que faz a diferença.</p><button id="skip-intro">Entrar no aplicativo <span>→</span></button></div>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><img src="assets/retenfix.png" alt="Retenfix"><div>RETENFIX<small>ACADEMIA</small></div></div>
+      <div class="nav-caption">SEU ESPAÇO DE APRENDIZAGEM</div>
+      <nav id="navigation" aria-label="Menu principal"></nav>
+      <div class="side-note"><span class="status-dot"></span><strong>Pronto para o dia a dia</strong><p>Treine, consulte e salve resultados mesmo sem internet.</p></div>
+      <div class="side-bottom"><span>Retenfix · Vedações industriais</span><small>Versão 1.0 · Windows</small></div>
+    </aside>
+    <main class="workspace"><header class="topbar"><div><span class="bread-brand">Academia</span><span class="divider">/</span><strong id="breadcrumb">Laboratório 3D</strong></div><div class="offline"><span class="status-dot"></span>Dados neste computador</div></header><div id="view" class="view" tabindex="-1"></div></main>
+  </div>
+  <dialog id="modal" aria-labelledby="modal-title"><div id="modal-body"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="renderer.js"></script>
+</body>
+</html>
